@@ -1,0 +1,71 @@
+{
+  "name": "Hitboxes",
+  
+  "tree": {
+    "$ignoreUnknownInstances": true,
+    "$className": "DataModel",
+
+    "ReplicatedFirst": {
+      "$ignoreUnknownInstances": true,
+      
+      "Bootstrappers": {
+        "$path": "Source/Bootstrappers/Client"
+      }
+    },
+
+    "ReplicatedStorage": {
+      "$ignoreUnknownInstances": true,
+      
+      "Assets": {
+        "$ignoreUnknownInstances": true,
+        "$path": "Source/Assets"
+      },
+
+      "Packages": {
+        "$ignoreUnknownInstances": true,
+
+        "$path": "Packages",
+        
+        "Configuration": {
+          "$ignoreUnknownInstances": true,
+          "$path": "Source/Configuration"
+        }
+      }
+    },
+
+    "ServerScriptService": {
+      "$ignoreUnknownInstances": true,
+
+      "Temporary": {
+        "$ignoreUnknownInstances": true,
+        "$path": "Source/Temporary/Server"
+      },
+      
+      "Bootstrappers": {
+        "$ignoreUnknownInstances": true,
+        "$path": "Source/Bootstrappers/Server"
+      }
+    },
+
+    "ServerStorage": {
+      "$ignoreUnknownInstances": true,
+      
+      "ServerPackages": {
+        "$ignoreUnknownInstances": true,
+        "$path": "ServerPackages"
+      }
+    },
+    
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "$ignoreUnknownInstances": true,
+        
+        "Temporary": {
+          "$ignoreUnknownInstances": true,
+          "$path": "Source/Temporary/Client"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,5 @@
+[**/Packages/**]
+dotnet_analyzer_diagnostic.severity = none
+
+[**/ServerPackages/**]
+dotnet_analyzer_diagnostic.severity = none

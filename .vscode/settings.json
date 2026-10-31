@@ -1,0 +1,6 @@
+{
+  "luau-lsp.diagnostics.ignoredDirectories": [
+    "**/ServerPackages/**",
+    "**/Packages/**"
+  ]
+}

@@ -1,0 +1,13 @@
+# Argon
+/sourcemap.json
+
+# Wally
+/Packages
+/ServerPackages
+/DevPackages
+
+# Artifacts
+/*.lock
+
+# Misc
+.DS_Store

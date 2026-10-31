@@ -1,0 +1,74 @@
+{
+	"className": "Folder",
+	"children": [
+		{
+			"name": "AlternatePills",
+			"className": "Folder",
+			"children": [
+				{
+					"name": "PlayerHitbox",
+					"className": "Part",
+					"children": [
+						{
+							"name": "Description",
+							"className": "StringValue",
+							"properties": {
+								"Value": "The position of the player on the server, where the hitbox registers collision."
+							}
+						}
+					],
+					"properties": {
+						"Color": [9, 137, 207],
+						"Size": [2.634, 5.645, 2.634],
+						"CastShadow": false,
+						"Material": "ForceField"
+					}
+				},
+				{
+					"name": "QueryHitbox",
+					"className": "Part",
+					"children": [
+						{
+							"name": "Description",
+							"className": "StringValue",
+							"properties": {
+								"Value": "The collisions for the player, always attached to the player."
+							}
+						}
+					],
+					"properties": {
+						"Color": [52, 142, 64],
+						"Size": [2.167, 4.645, 2.167],
+						"Material": "ForceField",
+						"CastShadow": false
+					}
+				}
+			]
+		},
+		{
+			"name": "PlayerPills",
+			"className": "Folder",
+			"children": [
+				 {
+					"name": "PlayerHitbox",
+					"className": "Part",
+					"children": [
+						{
+							"name": "Description",
+							"className": "StringValue",
+							"properties": {
+								"Value": "The position of the player on the server, where the hitbox registers collision."
+							}
+						}
+					],
+					"properties": {
+						"Color": [255, 0, 0],
+						"Size": [2.634, 5.645, 2.634],
+						"Material": "ForceField",
+						"CastShadow": false
+					}
+				}
+			]
+		}
+	]
+}

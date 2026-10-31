@@ -1,0 +1,12 @@
+[package]
+name = "exelerantt/hitboxes"
+version = "0.1.0"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+private = true
+
+[dependencies]
+Chrono = "parihsz/chrono@2.2.3"
+
+[server-dependencies]
+Cmdr = "evaera/cmdr@^1.13.1"
