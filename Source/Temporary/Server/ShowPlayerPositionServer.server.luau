@@ -12,6 +12,9 @@ NewPlayerHitbox.Anchored = true
 Players.PlayerAdded:Connect(function(Player: Player)
 	Player.CharacterAdded:Connect(function(Character: Model)		
 		repeat 
+			pcall(function()
+				Character.PrimaryPart = Character:WaitForChild("HumanoidRootPart", 3) :: BasePart
+			end)
 			NewPlayerHitbox:PivotTo(Character:GetPivot())
 			task.wait()
 		until not Character
