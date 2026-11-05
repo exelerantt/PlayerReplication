@@ -43,7 +43,11 @@
       
       "Bootstrappers": {
         "$ignoreUnknownInstances": true,
-        "$path": "Source/Bootstrappers/Server"
+        "$path": "Source/Bootstrappers/Server",
+        
+        "CommandSystemBootstrapper": {
+          "$path": "Source/Troubleshooting/CMDR/Server"
+        }
       }
     },
 
@@ -53,6 +57,11 @@
       "ServerPackages": {
         "$ignoreUnknownInstances": true,
         "$path": "ServerPackages"
+      },
+      
+      "Commands": {
+        "$ignoreUnknownInstances": true,
+        "$path": "Source/Troubleshooting/CMDR/Commands"
       }
     },
     
@@ -63,7 +72,15 @@
         
         "Temporary": {
           "$ignoreUnknownInstances": true,
-          "$path": "Source/Temporary/Client"
+          "$path": "Source/Temporary/Client",
+          
+          "Iris": {
+            "$path": "Source/Troubleshooting/Iris"
+          },
+          
+          "CommandSystemBootstrapper": {
+            "$path": "Source/Troubleshooting/CMDR/Client"
+          }
         }
       }
     }

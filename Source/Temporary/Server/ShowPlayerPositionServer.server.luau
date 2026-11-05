@@ -4,12 +4,13 @@ const ReplicatedStorage = game:GetService("ReplicatedStorage")
 const Assets = ReplicatedStorage:WaitForChild("Assets") :: Folder
 const PlayerPills = Assets.PlayerPills :: Folder & { PlayerHitbox: MeshPart & { Description: StringValue }, QueryHitbox: MeshPart & { Description: StringValue } }
 
-local NewPlayerHitbox = PlayerPills.PlayerHitbox:Clone()
-NewPlayerHitbox.Parent = workspace
-NewPlayerHitbox.CanCollide = false
-NewPlayerHitbox.Anchored = true
-
 Players.PlayerAdded:Connect(function(Player: Player)
+	local NewPlayerHitbox = PlayerPills.PlayerHitbox:Clone()
+	NewPlayerHitbox.Parent = workspace
+	NewPlayerHitbox.CanCollide = false
+	NewPlayerHitbox.Anchored = true
+	NewPlayerHitbox.Name = Player.DisplayName.. "_NewPlayerHitbox"
+
 	Player.CharacterAdded:Connect(function(Character: Model)		
 		repeat 
 			pcall(function()
