@@ -7,6 +7,7 @@ private = true
 
 [dependencies]
 Chrono = "parihsz/chrono@2.2.3"
+Iris = "fordtoxic/iris@2.5.2"
 
 [server-dependencies]
 Cmdr = "evaera/cmdr@^1.13.1"
