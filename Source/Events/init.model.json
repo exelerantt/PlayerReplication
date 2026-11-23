@@ -1,0 +1,24 @@
+{
+	"className": "Folder",
+	"children": [
+		{
+			"name": "RemoteEvents",
+			"className": "Folder",
+			"children": [
+				{
+					"name": "SendPlayerPosition",
+					"className": "UnreliableRemoteEvent",
+					"children": [
+						{
+							"name": "Description",
+							"className": "StringValue",
+							"properties": {
+								"Value": "An UnreliableRemoteEvent created to activley send the latest player position, and specifically a UnreliableRemoteEvent as the requests can and **should** be dropped."
+							}
+						}
+					]
+				}
+			]
+		}
+	]	
+}

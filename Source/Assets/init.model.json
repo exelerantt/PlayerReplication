@@ -57,7 +57,7 @@
 							"name": "Description",
 							"className": "StringValue",
 							"properties": {
-								"Value": "The position of the player on the server, where the hitbox registers collision."
+								"Value": "The position of the player on the server, with optimizations."
 							}
 						}
 					],
