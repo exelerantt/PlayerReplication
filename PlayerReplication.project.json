@@ -20,6 +20,11 @@
         "$ignoreUnknownInstances": true,
         "$path": "Source/Assets"
       },
+      
+      "Events": {
+        "$ignoreUnknownInstances": true,
+        "$path": "Source/Events"
+      },
 
       "Packages": {
         "$ignoreUnknownInstances": true,
