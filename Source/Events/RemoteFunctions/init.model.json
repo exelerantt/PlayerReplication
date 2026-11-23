@@ -1,0 +1,18 @@
+{
+	"className": "Folder",
+	"children": [
+		{
+			"name": "GetPlayerPing",
+			"className": "RemoteFunction",
+			"children": [
+				{
+					"name": "Description",
+					"className": "StringValue",
+					"properties": {
+						"Value": "A RemoteFunction that when sent with a Player instance, returns the Player's NetworkPing."
+					}
+				}
+			]
+		}
+	]
+}

@@ -34,6 +34,11 @@
         "Configuration": {
           "$ignoreUnknownInstances": true,
           "$path": "Source/Configuration"
+        },
+        
+        "Utility": {
+          "$ignoreUnknownInstances": true,
+          "$path": "Source/Troubleshooting/Developer/Client/Utility"
         }
       }
     },
@@ -43,7 +48,12 @@
 
       "Temporary": {
         "$ignoreUnknownInstances": true,
-        "$path": "Source/Temporary/Server"
+        "$path": "Source/Temporary/Server",
+        
+        "Developer": {
+          "$ignoreUnknownInstances": true,
+          "$path": "Source/Troubleshooting/Developer/Server/Scripts"
+        }
       },
       
       "Bootstrappers": {
@@ -61,7 +71,12 @@
       
       "ServerPackages": {
         "$ignoreUnknownInstances": true,
-        "$path": "ServerPackages"
+        "$path": "ServerPackages",
+        
+        "Utility": {
+          "$ignoreUnknownInstances": true,
+          "$path": "Source/Troubleshooting/Developer/Server/Utility"
+        }
       },
       
       "Commands": {
@@ -78,6 +93,11 @@
         "Temporary": {
           "$ignoreUnknownInstances": true,
           "$path": "Source/Temporary/Client",
+          
+          "Developer": {
+            "$ignoreUnknownInstances": true,
+            "$path": "Source/Troubleshooting/Developer/Client/Scripts"
+          },
           
           "Iris": {
             "$path": "Source/Troubleshooting/Iris"
